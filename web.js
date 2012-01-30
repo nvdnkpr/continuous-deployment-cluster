@@ -8,10 +8,10 @@ var up = air.connect('say');
 var http = require('http');
 
 var server = http.createServer(function (req, res) {
-    if (req.url === '/') res.end('beep boop\r\n');
+    if (req.url === '/') res.end('beepity boop!\r\n');
     else up(function (remote) {
         remote.say(req.url, function (msg) {
-            res.end(msg);
+            res.end(msg + '\r\n');
         });
     });
 });
