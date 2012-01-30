@@ -3,6 +3,7 @@
     "version" : "0.0.0",
     "dependencies" : {
         "propagit" : "0.1.x",
-        "seaport" : "0.3.x"
+        "seaport" : "0.3.x",
+        "airport" : "0.0.x"
     }
 }
