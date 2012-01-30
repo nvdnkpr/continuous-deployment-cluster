@@ -1,0 +1,8 @@
+{
+    "name" : "continuous-deployment-cluster",
+    "version" : "0.0.0",
+    "dependencies" : {
+        "propagit" : "0.1.x",
+        "seaport" : "0.3.x"
+    }
+}
